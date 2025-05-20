@@ -92,7 +92,6 @@ const AboutUs = () => {
               </p>
             </p>
           ))}
-
         </div>
       </div>
     </div>
