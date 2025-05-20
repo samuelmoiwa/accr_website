@@ -30,11 +30,11 @@ function NavBar() {
               className="flex items-center text-2xl font-bold hover:text-green-200 transition duration-300"
               aria-label="Go to home"
             >
-              <img
+              {/* <img
                 className="h-8 w-auto mr-2 transform hover:scale-110 transition duration-300"
                 src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
                 alt="ACCR Logo"
-              />
+              /> */}
               ACCR
             </button>
           </div>
