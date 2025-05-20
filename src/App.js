@@ -5,15 +5,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-      <>
-          <NavBar />
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-
-          <Footer />
-      </>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
