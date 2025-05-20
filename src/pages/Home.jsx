@@ -5,16 +5,19 @@ import Banner from '../components/Banner'
 
 const Home = () => {
   return (
-    <div className='w-screen h-full flex justify-center items-center flex-col'>
+    <div className='w-full flex justify-center items-center'>
+      <div className='w-screen h-full max-w-[130rem] flex justify-center items-center flex-col'>
       <Banner/>
 
-    <div className='bg-green-100 w-10/12 py-14 flex justify-center
-      items-center justify-self-center rounded-md mt-52 mb-10'>
+    <div className='bg-gradient-to-b from-teal-100 via-white to-blue-100  w-full py-14 flex justify-center
+      items-center justify-self-center rounded-md  mb-10'>
       <h1 className='font-bold text-lg text-teal-500'>
         Home 2
       </h1>
     </div>
     </div>
+    </div>
+
 
   )
 }
