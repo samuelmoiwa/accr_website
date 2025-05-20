@@ -37,7 +37,7 @@ const Banner = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 1 }}
         >
-          Sierra Leone’s leading voice for private sector carbon developers — restoring ecosystems, creating jobs, and driving climate action through nature-based solutions.
+          Sierra Leone’s leading voice for private sector carbon developers restoring ecosystems, creating jobs, and driving climate action through nature-based solutions.
         </motion.p>
 
         <motion.a
