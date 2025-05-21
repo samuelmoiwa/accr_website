@@ -63,7 +63,7 @@ const CallToAction = () => {
             className="bg-white rounded-xl shadow-lg p-8 w-full max-w-md relative"
           >
             <button onClick={() => setIsModalOpen(false)} className="absolute top-3 right-3 text-gray-600 hover:text-red-500">
-              <XMarkIcon className="h-6 w-6" />
+              <XMarkIcon className="h-6 w-6 hover:animate-spin-slow" />
             </button>
             <h3 className="text-2xl font-bold text-green-800 mb-4">Join ACCR</h3>
 

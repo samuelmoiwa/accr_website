@@ -7,15 +7,21 @@ module.exports = {
     extend: {
       colors: {
         'hero-bg': '#F7F7F7',
-        'purple': '#5E3BEE',
-        'purple-light': '#BEB2EE',
-        'purple-header': '#282938',
-        'purple-body': '#1C1E53',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
         noto: ['Noto Serif TC', 'serif'],
-      }
+      },
+      keyframes: {
+        spinOnce: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
+      animation: {
+        'spin-slow': 'spinOnce 1.5s linear 1',
+      },
+
     },
   },
   variants: {
