@@ -9,7 +9,7 @@ import rainforestLogo from '../images/rb_logo.png';
 import rewildingLogo from '../images/rewilding_logo.png';
 import delaguaLogo from '../images/delagua.png';
 import freetownLogo from '../images/fcc.png';
-import mangroveLogo from '../images/mangrove.jpg';
+import mangroveLogo from '../images/mangrove.png';
 import westAfricaLogo from '../images/westafrica.png';
 
 
@@ -19,7 +19,10 @@ const members = [
     name: 'Rainforest Builder',
     logo: rainforestLogo,
     description:
-      "Projects in Sierra Leone’s Upper Guinean Forest employ 2,000 people, focusing on rapid carbon removal, biodiversity, and restoring degraded tropical landscapes.",
+      ` Africa’s forests are among the world’s most important ‘carbon sinks’ mitigating climate change today. But with 
+        more degraded tropical forest land  than any other continent, their restoration represents the  single most
+        powerful tool  the world has to draw down carbon in pursuit of net zero. Africa’s  most degraded rainforest
+        landscape  is the Upper Guinean Forest, where our first two projects are located, employing 2,000 people.`,
   },
   {
     name: 'Rewilding',
@@ -37,19 +40,31 @@ const members = [
     name: 'West Africa Blue',
     logo: westAfricaLogo,
     description:
-      'Specializes in REDD+ projects to avoid deforestation and preserve threatened ecosystems in Sierra Leone.',
+      `West Africa Blue is a community-centric developer of blue carbon projects in West Africa. Blue’s mission is to
+      work hand-in-hand with local communities to preserve, restore, and sustainably manage coastal ecosystems across
+      West Africa, financed through the issuance of high-quality carbon credits. Our project activities will help build
+      resilience to climate change, limit greenhouse gas emissions from deforestation, protect endangered species,
+      and support new economic opportunities – especially for women.`,
   },
   {
     name: 'DelAgua',
     logo: delaguaLogo,
     description:
-      'Leads efficient cookstove projects with its Livɛ Fyn program, impacting 850,000 households and pioneering Article 6 carbon credits.',
+      `With over 12 years’ experience, DelAgua is the leading cookstove carbon project developer across Africa and to
+      date has provided 1.6 million stoves benefiting 7 million people. Trusted partnerships with governments, a
+      high-performance stove integrated with education, delivered by local community workers and powered by technology
+      to track stove usage ensures exceptional project impact and integrity. DelAgua has led the way with the very
+      first Article 6 credits and has signed LoAs with all partner Governments.   `,
   },
   {
     name: 'Freetown the Treetown',
     logo: freetownLogo,
     description:
-      'Aims to plant 5 million trees by 2028 through community-led climate adaptation and reforestation initiatives.',
+      `#FreetownTheTreetown is a climate adaptation initiative designed to restore and enhance Freetown’s ecological
+      infrastructure in response to the growing climate crisis. Supported by the World Bank and Bloomberg Philanthropies,
+      the program aims to plant 5 million trees by 2028 while creating sustainable, green jobs. A key feature of the
+      initiative is its innovative community-led tree-growing model, which provides monetary incentives for residents
+      to plant, track, and protect trees in climate-vulnerable areas.`,
   },
 ];
 
@@ -100,7 +115,7 @@ const MembersCarousel = () => {
               transition={{ duration: 0.6, delay: index * 0.2 }}
               >
               <div className="bg-white rounded-xl shadow-lg sm:p-6 p-2 text-center h-full w-full
-              sm:min-h-[20rem] flex flex-col items-center justify-between">
+              sm:min-h-[25rem] flex flex-col items-center justify-between my-3">
                   <img
                   src={member.logo}
                   alt={`${member.name} logo`}
