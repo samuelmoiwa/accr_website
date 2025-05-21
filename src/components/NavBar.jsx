@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../images/logo.jpeg'
 
 const navigation = [
   { name: 'Home', href: '#home' },
@@ -27,14 +28,14 @@ function NavBar() {
           <div className="flex items-center">
             <button
               onClick={() => scrollToSection('home')}
-              className="flex items-center text-2xl font-bold hover:text-green-200 transition duration-300"
+              className="flex items-center text-xl font-bold hover:text-green-200 transition duration-300"
               aria-label="Go to home"
             >
-              {/* <img
-                className="h-8 w-auto mr-2 transform hover:scale-110 transition duration-300"
-                src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+              <img
+                className="h-9 w-auto mr-2 transform hover:scale-110 transition duration-300"
+                src={logo}
                 alt="ACCR Logo"
-              /> */}
+              />
               ACCR
             </button>
           </div>

@@ -5,7 +5,7 @@ import {
   PhoneIcon,
   MapPinIcon,
 } from '@heroicons/react/24/outline';
-import logo from '../images/logo.png';
+import logo from '../images/logo.jpeg';
 
 function Footer() {
   return (
@@ -16,7 +16,7 @@ function Footer() {
           <img
             src={logo}
             alt="ACCR Logo"
-            className="h-14 w-auto mb-4 hover:scale-110 transition duration-300"
+            className="h-16 w-auto mb-4 hover:scale-110 transition duration-300"
           />
           <p className="text-sm text-white/90 leading-relaxed">
             The Association of Carbon Conservation and Reforestation (ACCR) is Sierra Leone’s voice for private sector climate action.
