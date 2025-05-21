@@ -79,7 +79,7 @@ const MembersCarousel = () => {
   };
 
   return (
-    <section className=" py-20">
+    <section className="w-full flex justify-center items-center py-20">
       <div className="max-w-[90rem] w-full px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-green-800">Our Members</h2>
