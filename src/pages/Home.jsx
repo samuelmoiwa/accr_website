@@ -4,7 +4,7 @@ import Banner from '../components/Banner'
 import HomeIntro from '../components/HomeIntro'
 import AboutUs from '../components/AboutUs'
 import CallToAction from '../components/CallToAction'
-
+import CarbonDevelopment from '../components/CarbonDevelopment'
 
 const Home = () => {
   return (
@@ -18,7 +18,10 @@ const Home = () => {
           <AboutUs/>
           <CallToAction/>
         </div>
+
+        <CarbonDevelopment/>
       </div>
+
     </div>
   )
 }
