@@ -17,10 +17,10 @@ const Home = () => {
         </div>
 
         <div className='bg-gradient-to-b from-teal-100 via-white to-blue-100 w-full pt-14 flex flex-col justify-center items-center'>
-          <div id="home-info">
+          <div id="home-info" className="w-full">
             <HomeIntro />
           </div>
-          <div id="about-us">
+          <div id="about-us" className="w-full">
             <AboutUs />
           </div>
           <CallToAction />
