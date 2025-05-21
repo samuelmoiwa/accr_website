@@ -5,6 +5,7 @@ import AboutUs from '../components/AboutUs'
 import CallToAction from '../components/CallToAction'
 import CarbonDevelopment from '../components/CarbonDevelopment'
 import MembersCarousel from '../components/MembersCarousel'
+import ContactUs from '../components/ContactUs'
 
 const Home = () => {
   return (
@@ -37,7 +38,7 @@ const Home = () => {
         </div>
 
         <div id="contact-us" className="w-full">
-          {/* You can create a ContactUs component and add it here */}
+          <ContactUs />
         </div>
       </div>
     </div>
