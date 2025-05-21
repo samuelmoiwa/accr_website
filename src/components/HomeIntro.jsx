@@ -20,7 +20,7 @@ const HomeIntro = () => {
 
   return (
     <section className="w-full py-20 ">
-      <div className="max-w-[85rem] w-full mx-auto px-6">
+      <div className="max-w-[85rem] w-full mx-auto px-4">
         <motion.div
           variants={containerVariants}
           initial="hidden"

@@ -10,7 +10,7 @@ import ContactUs from '../components/ContactUs'
 const Home = () => {
   return (
     <div className='w-full flex justify-center items-center'>
-      <div className='w-screen h-full max-w-[130rem] flex justify-center items-center flex-col'>
+      <div className='w-full h-full max-w-[130rem] flex justify-center items-center flex-col'>
 
         <div id="home" className="w-full">
           <Banner />
@@ -20,23 +20,18 @@ const Home = () => {
           <div id="home-info">
             <HomeIntro />
           </div>
-
-
           <div id="about-us">
             <AboutUs />
           </div>
-
           <CallToAction />
         </div>
 
         <div id="what-is-carbon-development" className="w-full">
           <CarbonDevelopment />
         </div>
-
         <div id="our-members" className="w-full">
           <MembersCarousel />
         </div>
-
         <div id="contact-us" className="w-full">
           <ContactUs />
         </div>

@@ -89,32 +89,35 @@ const MembersCarousel = () => {
           </p>
         </div>
 
-        <Slider {...settings}>
+        <div className='w-full px-4'>
+          <Slider {...settings}>
           {members.map((member, index) => (
-            <motion.div
+              <motion.div
               key={index}
               className="px-4"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-            >
+              >
               <div className="bg-white rounded-xl shadow-lg sm:p-6 p-2 text-center h-full w-full
               sm:min-h-[20rem] flex flex-col items-center justify-between">
-                <img
+                  <img
                   src={member.logo}
                   alt={`${member.name} logo`}
                   className="w-24 h-24 object-contain mx-auto mb-4"
-                />
-                <h3 className="text-xl font-semibold text-green-900 mb-2">
+                  />
+                  <h3 className="text-xl font-semibold text-green-900 mb-2">
                   {member.name}
-                </h3>
-                <p className="text-gray-600 text-sm">
+                  </h3>
+                  <p className="text-gray-600 text-sm">
                   {member.description}
-                </p>
+                  </p>
               </div>
-            </motion.div>
+              </motion.div>
           ))}
-        </Slider>
+          </Slider>
+        </div>
+
       </div>
     </section>
   );
