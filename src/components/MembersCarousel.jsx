@@ -80,11 +80,12 @@ const MembersCarousel = () => {
 
   return (
     <section className=" py-20">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-[90rem] w-full px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-green-800">Our Members</h2>
           <p className="text-gray-700 max-w-3xl mx-auto mt-4">
-            ACCR is proud to represent Sierra Leone’s leading carbon developers transforming communities and ecosystems through nature-based climate solutions.
+            ACCR is proud to represent Sierra Leone’s leading carbon developers transforming communities
+            and ecosystems through nature-based climate solutions.
           </p>
         </div>
 
@@ -97,7 +98,8 @@ const MembersCarousel = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <div className="bg-white rounded-xl shadow-lg p-6 text-center h-full sm:min-h-[20rem] flex flex-col items-center justify-between">
+              <div className="bg-white rounded-xl shadow-lg sm:p-6 p-2 text-center h-full w-full
+              sm:min-h-[20rem] flex flex-col items-center justify-between">
                 <img
                   src={member.logo}
                   alt={`${member.name} logo`}
