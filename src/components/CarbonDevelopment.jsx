@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 import carbonImg from '../images/1.jpeg';
 import creditsImg from '../images/2.jpeg';
 import stoveImg from '../images/3.jpeg';
-import forestImg from '../images/1.jpeg';
+import forestImg from '../images/4.webp';
+import cutTree from '../images/5.jpg'
 
 const CarbonDevelopment = () => {
   return (
@@ -73,7 +74,7 @@ const CarbonDevelopment = () => {
                 <div>
                   <p className="font-medium text-lg">🌳 Avoidance (REDD+)</p>
                   <p className="text-gray-600">Preventing deforestation in high-risk areas. West Africa Blue leads in this space.</p>
-                  <img src={carbonImg} alt="Forest protection" className="rounded-md mt-2 w-full h-40 object-cover" />
+                  <img src={cutTree} alt="Forest protection" className="rounded-md mt-2 w-full h-40 object-cover" />
                 </div>
                 <div>
                   <p className="font-medium text-lg">🔥 Reduction</p>
