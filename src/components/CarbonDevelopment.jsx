@@ -69,7 +69,7 @@ const CarbonDevelopment = () => {
                 <img src={forestImg} alt="Tree planting" className="rounded-md mt-2 w-full h-40 object-cover" />
               </div>
 
-              <div className='w-full flex gap-2'>
+              <div className='w-full sm:flex  gap-2'>
                 <div>
                   <p className="font-medium text-lg">🌳 Avoidance (REDD+)</p>
                   <p className="text-gray-600">Preventing deforestation in high-risk areas. West Africa Blue leads in this space.</p>

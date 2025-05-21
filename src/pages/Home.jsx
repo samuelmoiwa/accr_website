@@ -1,10 +1,10 @@
 import React from 'react'
-import HeroBanner from '../components/HeroBanner'
 import Banner from '../components/Banner'
 import HomeIntro from '../components/HomeIntro'
 import AboutUs from '../components/AboutUs'
 import CallToAction from '../components/CallToAction'
 import CarbonDevelopment from '../components/CarbonDevelopment'
+import MembersCarousel from '../components/MembersCarousel'
 
 const Home = () => {
   return (
@@ -20,6 +20,7 @@ const Home = () => {
         </div>
 
         <CarbonDevelopment/>
+        <MembersCarousel />
       </div>
 
     </div>

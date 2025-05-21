@@ -21,7 +21,7 @@ function NavBar() {
   };
 
   return (
-    <nav className="bg-green-900 text-white fixed w-full z-20 top-0 shadow-lg" aria-label="Main navigation">
+    <nav className="bg-green-950 text-white fixed w-full z-20 top-0 shadow-lg" aria-label="Main navigation">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
