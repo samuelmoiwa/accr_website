@@ -6,6 +6,7 @@ import partner from '../lottie/partner.json';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { XMarkIcon } from '@heroicons/react/24/solid';
+import logo from '../images/logo.jpeg'
 
 const validationSchema = Yup.object({
   name: Yup.string().required('Name is required'),
@@ -35,19 +36,23 @@ const CallToAction = () => {
             and build a climate-resilient future together.
           </p>
 
-          <div className="flex flex-col md:flex-row justify-center lg:justify-start items-center gap-6">
+          {/* <div className="flex flex-col md:flex-row justify-center lg:justify-start items-center gap-6">
             <button
               onClick={() => setIsModalOpen(true)}
               className="bg-white text-green-800 hover:bg-green-100 font-semibold py-3 px-8 rounded-lg shadow-lg transition duration-300"
             >
               Join ACCR
             </button>
-          </div>
+          </div> */}
         </motion.div>
 
         {/* Left Column: Lottie Animation */}
         <div className="w-full lg:w-[30%]">
-          <Lottie animationData={partner} loop={true} className="w-full max-w-md mx-auto" />
+          <img
+            src={logo}
+            alt="ACCR Impact"
+            className="w-full max-w-md rounded-md mx-auto"
+          />
         </div>
       </div>
 

@@ -32,7 +32,7 @@ function NavBar() {
               aria-label="Go to home"
             >
               <img
-                className="h-9 w-auto mr-2 transform hover:scale-110 transition duration-300"
+                className="h-12 w-auto mr-2 transform hover:scale-110 transition duration-300"
                 src={logo}
                 alt="ACCR Logo"
               />
