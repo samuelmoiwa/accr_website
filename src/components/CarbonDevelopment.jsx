@@ -7,7 +7,7 @@ import forestImg from '../images/1.jpeg';
 
 const CarbonDevelopment = () => {
   return (
-    <section className="w-full py-20 bg-white text-gray-800">
+    <section className="w-full py-20 bg-gray-100 text-gray-800">
       <div className="max-w-[90rem] mx-auto px-6">
         {/* Header */}
         <motion.div
@@ -68,15 +68,18 @@ const CarbonDevelopment = () => {
                 <p className="text-gray-600">Growing trees and vegetation to absorb CO₂. Examples: Rainforest Builder, Rewilding, Freetown the Treetown.</p>
                 <img src={forestImg} alt="Tree planting" className="rounded-md mt-2 w-full h-40 object-cover" />
               </div>
-              <div>
-                <p className="font-medium text-lg">🌳 Avoidance (REDD+)</p>
-                <p className="text-gray-600">Preventing deforestation in high-risk areas. West Africa Blue leads in this space.</p>
-                <img src={carbonImg} alt="Forest protection" className="rounded-md mt-2 w-full h-40 object-cover" />
-              </div>
-              <div>
-                <p className="font-medium text-lg">🔥 Reduction</p>
-                <p className="text-gray-600">Using efficient cookstoves to reduce emissions. Example: DelAgua’s Livɛ Fyn program.</p>
-                <img src={stoveImg} alt="Cookstove project" className="rounded-md mt-2 w-full h-40 object-cover" />
+
+              <div className='w-full flex gap-2'>
+                <div>
+                  <p className="font-medium text-lg">🌳 Avoidance (REDD+)</p>
+                  <p className="text-gray-600">Preventing deforestation in high-risk areas. West Africa Blue leads in this space.</p>
+                  <img src={carbonImg} alt="Forest protection" className="rounded-md mt-2 w-full h-40 object-cover" />
+                </div>
+                <div>
+                  <p className="font-medium text-lg">🔥 Reduction</p>
+                  <p className="text-gray-600">Using efficient cookstoves to reduce emissions. Example: DelAgua’s Livɛ Fyn program.</p>
+                  <img src={stoveImg} alt="Cookstove project" className="rounded-md mt-2 w-full h-40 object-cover" />
+                </div>
               </div>
             </div>
           </motion.div>
