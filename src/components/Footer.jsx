@@ -16,7 +16,7 @@ function Footer() {
           <img
             src={logo}
             alt="ACCR Logo"
-            className="h-16 w-auto mb-4 hover:scale-110 transition duration-300"
+            className="h-[7rem] w-auto mb-4 hover:scale-110 transition duration-300"
           />
           <p className="text-sm text-white/90 leading-relaxed">
             The Association of Carbon Conservation and Reforestation (ACCR) is Sierra Leone’s voice for private sector climate action.
@@ -30,14 +30,14 @@ function Footer() {
             Contact Us
           </h4>
           <ul className="space-y-3 text-sm text-white/90">
-            <li className="flex items-center gap-2">
+            {/* <li className="flex items-center gap-2">
               <MapPinIcon className="h-5 w-5" />
               12 Lumley Road, Freetown, Sierra Leone
             </li>
             <li className="flex items-center gap-2">
               <PhoneIcon className="h-5 w-5" />
               +232 79 000 000
-            </li>
+            </li> */}
             <li className="flex items-center gap-2">
               <EnvelopeIcon className="h-5 w-5" />
               <a

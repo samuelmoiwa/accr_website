@@ -31,14 +31,14 @@ const ContactUs = () => {
           </p>
 
           <div className="space-y-4 text-gray-600 ">
-            <p className="flex items-center gap-3">
+            {/* <p className="flex items-center gap-3">
               <MapPinIcon className="w-6 h-6 text-green-600" />
               12 Lumley Road, Freetown, Sierra Leone
             </p>
             <p className="flex items-center gap-3">
               <PhoneIcon className="w-6 h-6 text-green-600" />
               +232 79 000 000
-            </p>
+            </p> */}
             <p className="flex items-center gap-3">
               <EnvelopeIcon className="w-6 h-6 text-green-600" />
               theaccr.sl@gmail.com
