@@ -30,12 +30,12 @@ const members = [
     description:
       'Works with smallholder farmers to restore native forests and ensure reforestation benefits both the environment and communities.',
   },
-  {
-    name: 'Mangrove Conservation Sierra Leone',
-    logo: mangroveLogo,
-    description:
-      'Restores mangrove ecosystems—critical carbon sinks that protect biodiversity and coastal communities.',
-  },
+  // {
+  //   name: 'Mangrove Conservation Sierra Leone',
+  //   logo: mangroveLogo,
+  //   description:
+  //     'Restores mangrove ecosystems—critical carbon sinks that protect biodiversity and coastal communities.',
+  // },
   {
     name: 'West Africa Blue',
     logo: westAfricaLogo,
