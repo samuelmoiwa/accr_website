@@ -6,7 +6,7 @@ import partner from '../lottie/partner.json';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { XMarkIcon } from '@heroicons/react/24/solid';
-import logo from '../images/logo.jpeg'
+import logo from '../images/logo.png'
 
 const validationSchema = Yup.object({
   name: Yup.string().required('Name is required'),
