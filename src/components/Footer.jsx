@@ -5,7 +5,7 @@ import {
   PhoneIcon,
   MapPinIcon,
 } from '@heroicons/react/24/outline';
-import logo from '../images/logo.jpeg';
+import logo from '../images/logo.png';
 
 function Footer() {
   return (
