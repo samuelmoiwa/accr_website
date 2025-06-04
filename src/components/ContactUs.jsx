@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import { EnvelopeIcon, PhoneIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import contactLottie from '../lottie/envelop.json';
 import Lottie from 'lottie-react';
+import { Toaster, toast } from 'sonner';
+
 
 const validationSchema = Yup.object({
   name: Yup.string().required('Name is required'),
@@ -15,6 +17,7 @@ const validationSchema = Yup.object({
 const ContactUs = () => {
   return (
     <section id="contact-us" className="bg-gray-100 py-20 px-4">
+      <Toaster position="bottom-right" richColors />
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
         {/* Left: Image & Info */}
         <motion.div
@@ -64,8 +67,12 @@ const ContactUs = () => {
             initialValues={{ name: '', email: '', message: '' }}
             validationSchema={validationSchema}
             onSubmit={(values, { resetForm }) => {
-              console.log(values);
-              alert('Message sent successfully!');
+              try {
+              toast.success('Message sent successfully!');
+                  resetForm();
+                } catch (error) {
+                  toast.error('Failed to send message. Please try again.');
+                }
               resetForm();
             }}
           >
