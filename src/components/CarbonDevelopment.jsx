@@ -3,8 +3,10 @@ import { motion } from 'framer-motion';
 import carbonImg from '../images/1.jpeg';
 import creditsImg from '../images/2.jpeg';
 import stoveImg from '../images/3.jpeg';
-import forestImg from '../images/4.webp';
-import cutTree from '../images/5.jpg'
+import forestImg from '../images/4.jpeg';
+import cutTree from '../images/5.jpeg'
+import reduction from '../images/6.jpeg'
+
 
 const CarbonDevelopment = () => {
   return (
@@ -79,7 +81,7 @@ const CarbonDevelopment = () => {
                 <div>
                   <p className="font-medium text-lg">🔥 Reduction</p>
                   <p className="text-gray-600">Using efficient cookstoves to reduce emissions. Example: DelAgua’s Livɛ Fyn program.</p>
-                  <img src={stoveImg} alt="Cookstove project" className="rounded-md mt-2 w-full h-40 object-cover" />
+                  <img src={reduction} alt="Cookstove project" className="rounded-md mt-2 w-full h-40 object-cover" />
                 </div>
               </div>
             </div>
