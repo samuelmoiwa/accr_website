@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../images/logo.png'
+import logo from '../images/logo_2.png'
 
 const navigation = [
   { name: 'Home', href: '#home' },
@@ -22,13 +22,13 @@ function NavBar() {
   };
 
   return (
-    <nav className="bg-green-950 text-white fixed w-full z-20 top-0 shadow-lg" aria-label="Main navigation">
+    <nav className="bg-green-100 text-green-900 fixed w-full z-20 top-0 shadow-lg" aria-label="Main navigation">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <button
               onClick={() => scrollToSection('home')}
-              className="flex items-center text-xl font-bold hover:text-green-200 transition duration-300"
+              className="flex items-center text-xl font-bold hover:text-green-800 transition duration-300"
               aria-label="Go to home"
             >
               <img
@@ -36,7 +36,7 @@ function NavBar() {
                 src={logo}
                 alt="ACCR Logo"
               />
-              ACCR
+
             </button>
           </div>
           <div className="hidden sm:flex sm:items-center sm:space-x-6">
@@ -44,9 +44,9 @@ function NavBar() {
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href.slice(1))}
-                className={`relative px-4 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out transform hover:scale-105 hover:text-green-100 ${
-                  window.location.hash === item.href ? 'border-b-2 border-white font-bold' : ''
-                } after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 after:ease-in-out hover:after:w-full hover:after:left-0`}
+                className={`relative px-4 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out transform hover:scale-105 hover:text-green-800 ${
+                  window.location.hash === item.href ? 'border-b-2 border-t-green-950 font-bold' : ''
+                } after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-green-950 after:transition-all after:duration-300 after:ease-in-out hover:after:w-full hover:after:left-0`}
                 aria-current={window.location.hash === item.href ? 'page' : undefined}
               >
                 {item.name}
@@ -56,7 +56,7 @@ function NavBar() {
           <div className="flex items-center sm:hidden">
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-white transition duration-300"
+              className="inline-flex items-center justify-center p-2 rounded-md text-green-900 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-900 transition duration-300"
               aria-label={isOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={isOpen}
             >
@@ -73,15 +73,15 @@ function NavBar() {
         </div>
       </div>
       {isOpen && (
-        <div className="sm:hidden bg-green-600 text-white transform transition-all duration-500 ease-in-out">
+        <div className="sm:hidden bg-green-600 text-green-900 transform transition-all duration-500 ease-in-out">
           <div className="flex flex-col items-center py-6 space-y-4">
             {navigation.map((item) => (
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href.slice(1))}
-                className={`relative w-3/4 text-center py-3 text-base font-medium transition duration-300 ease-in-out transform hover:scale-105 hover:text-green-100 ${
-                  window.location.hash === item.href ? 'border-b-2 border-white font-bold' : ''
-                } after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 after:ease-in-out hover:after:w-full hover:after:left-0`}
+                className={`relative w-3/4 text-center py-3 text-base font-medium transition duration-300 ease-in-out transform hover:scale-105 hover:text-green-800 ${
+                  window.location.hash === item.href ? 'border-b-2 border-green-900 font-bold' : ''
+                } after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-green-900 after:transition-all after:duration-300 after:ease-in-out hover:after:w-full hover:after:left-0`}
                 aria-current={window.location.hash === item.href ? 'page' : undefined}
               >
                 {item.name}

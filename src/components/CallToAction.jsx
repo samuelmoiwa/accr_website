@@ -6,7 +6,7 @@ import partner from '../lottie/partner.json';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { XMarkIcon } from '@heroicons/react/24/solid';
-import logo from '../images/logo.png'
+import logo from '../images/logo_2.png'
 
 const validationSchema = Yup.object({
   name: Yup.string().required('Name is required'),
@@ -18,7 +18,7 @@ const CallToAction = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="relative w-full py-5 bg-gradient-to-r from-green-700 via-green-800 to-green-900 text-white overflow-hidden mt-10">
+    <section className="relative w-full py-5 bg-gradient-to-r from-green-800 via-green-800 to-green-300 text-white overflow-hidden mt-10">
       <div className="max-w-[90rem] mx-auto px-6 relative z-10 flex flex-col lg:flex-row items-center justify-between gap-10">
         {/* Right Column: Text + Buttons */}
         <motion.div

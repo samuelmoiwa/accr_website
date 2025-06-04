@@ -5,11 +5,11 @@ import {
   PhoneIcon,
   MapPinIcon,
 } from '@heroicons/react/24/outline';
-import logo from '../images/logo.png';
+import logo from '../images/logo_2.png';
 
 function Footer() {
   return (
-    <footer className="bg-gradient-to-tr from-blue-950 to-green-950 text-white py-16 px-4 sm:px-8">
+    <footer className="bg-gradient-to-tr from-blue-100 to-green-100 text-green-900 py-16 px-4 sm:px-8">
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
         {/* Logo & Tagline */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
@@ -18,7 +18,7 @@ function Footer() {
             alt="ACCR Logo"
             className="h-[7rem] w-auto mb-4 hover:scale-110 transition duration-300"
           />
-          <p className="text-sm text-white/90 leading-relaxed">
+          <p className="text-sm text-green-900/90 leading-relaxed">
             The Association of Carbon Conservation and Reforestation (ACCR) is Sierra Leone’s voice for private sector climate action.
           </p>
         </div>
@@ -29,7 +29,7 @@ function Footer() {
             <MapPinIcon className="h-5 w-5" />
             Contact Us
           </h4>
-          <ul className="space-y-3 text-sm text-white/90">
+          <ul className="space-y-3 text-sm text-green-900/90">
             {/* <li className="flex items-center gap-2">
               <MapPinIcon className="h-5 w-5" />
               12 Lumley Road, Freetown, Sierra Leone
@@ -42,7 +42,7 @@ function Footer() {
               <EnvelopeIcon className="h-5 w-5" />
               <a
                 href="mailto:theaccr.sl@gmail.com"
-                className="hover:underline hover:text-green-100"
+                className="hover:underline hover:text-green-800"
               >
                 theaccr.sl@gmail.com
               </a>
@@ -100,7 +100,7 @@ function Footer() {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-green-100 transition transform hover:scale-125"
+                className="hover:text-green-800 transition transform hover:scale-125"
                 aria-label={`Follow us on ${social.name}`}
               >
                 {social.icon}
@@ -110,9 +110,9 @@ function Footer() {
         </div>
       </div>
 
-      <hr className="border-green-200 mt-12 mb-6" />
+      <hr className="border-green-800 mt-12 mb-6" />
 
-      <div className="text-center text-sm text-white/70">
+      <div className="text-center text-sm text-green-900/70">
         © {new Date().getFullYear()} Association of Carbon Conservation and Reforestation (ACCR). All rights reserved.
       </div>
     </footer>
