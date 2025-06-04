@@ -23,14 +23,14 @@ const members = [
         more degraded tropical forest land  than any other continent, their restoration represents the  single most
         powerful tool  the world has to draw down carbon in pursuit of net zero. Africa’s  most degraded rainforest
         landscape  is the Upper Guinean Forest, where our first two projects are located, employing 2,000 people.`,
-        web: ``
+        web: `https://www.rainforestbuilder.com/`
   },
   {
     name: 'Rewilding',
     logo: rewildingLogo,
     description:
       'Works with smallholder farmers to restore native forests and ensure reforestation benefits both the environment and communities.',
-      web: ``
+      web: `https://www.rewildingcompany.com/`
   },
   // {
   //   name: 'Mangrove Conservation Sierra Leone',
@@ -47,7 +47,7 @@ const members = [
       West Africa, financed through the issuance of high-quality carbon credits. Our project activities will help build
       resilience to climate change, limit greenhouse gas emissions from deforestation, protect endangered species,
       and support new economic opportunities – especially for women.`,
-      web: ``
+      web: `https://www.westafricablue.org/`
   },
   {
     name: 'DelAgua',
@@ -58,7 +58,7 @@ const members = [
       high-performance stove integrated with education, delivered by local community workers and powered by technology
       to track stove usage ensures exceptional project impact and integrity. DelAgua has led the way with the very
       first Article 6 credits and has signed LoAs with all partner Governments.   `,
-      web: ``
+      web: `https://www.delagua.org/`
   },
   {
     name: 'Freetown the Treetown',
@@ -69,7 +69,7 @@ const members = [
       the program aims to plant 5 million trees by 2028 while creating sustainable, green jobs. A key feature of the
       initiative is its innovative community-led tree-growing model, which provides monetary incentives for residents
       to plant, track, and protect trees in climate-vulnerable areas.`,
-      web: ``
+      web: `https://freetownthetreetown.sl/`
   },
 ];
 
