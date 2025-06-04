@@ -18,7 +18,7 @@ const scrollToHomeInfo = () => {
       style={{ backgroundImage: `url(${forest})` }}
     >
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/10  backdrop-blur-sm" />
+      <div className="absolute inset-0 bg-black/10 " />
 
       {/* Light Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-radial from-white/10 via-transparent to-black/80 opacity-20" />
