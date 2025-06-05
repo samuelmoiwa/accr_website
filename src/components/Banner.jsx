@@ -67,4 +67,5 @@ const scrollToHomeInfo = () => {
 
 
 
+
 export default Banner;
