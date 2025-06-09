@@ -50,7 +50,7 @@ const CarbonDevelopment = () => {
             </h3>
             <ul className="list-disc list-inside text-gray-700 space-y-3">
               <li><strong>Carbon Credits Explained:</strong> A carbon credit represents one metric ton of CO₂ removed, avoided, or reduced. Governments and companies purchase credits to offset emissions.</li>
-              <li><strong>Validation Standards:</strong> All projects are certified by <em>VERRA</em>, a global authority on carbon validation.</li>
+              <li><strong>Goal Standards:</strong> All projects are certified by <em>VERRA</em>, a global authority on carbon validation.</li>
               <li><strong>Investment Potential:</strong> With demand outpacing supply, Sierra Leone is poised to attract significant investment via ACCR's transparent framework.</li>
             </ul>
             <img src={creditsImg} alt="Carbon Credits" className="w-full h-60 object-cover rounded-lg shadow-md" />

@@ -41,7 +41,7 @@ const AboutUs = () => {
           />
           <Card
             icon={<FontAwesomeIcon icon={faSeedling} className="text-5xl text-yellow-400 mb-4" />}
-            heading="Growth & Equity"
+            heading="Growth & Inclusion"
             details="Our vision is a greener Sierra Leone where communities thrive through job creation, restored livelihoods, and global climate impact."
           />
         </div>

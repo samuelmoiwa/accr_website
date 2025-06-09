@@ -31,7 +31,7 @@ const HomeIntro = () => {
           {/* Text Block */}
           <motion.div variants={textVariants} className="flex flex-col">
             <h2 className="text-4xl md:text-5xl font-bold text-green-800  font-Poppins mb-6 leading-tight">
-              Association of Carbon Conservation and Reforestation (ACCR)
+              Association of Carbon Conservation and Reforestation
             </h2>
 
             <p className="text-lg text-gray-700  leading-relaxed mb-4">

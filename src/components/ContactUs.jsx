@@ -30,7 +30,7 @@ const ContactUs = () => {
             Get in Touch
           </h2>
           <p className="text-gray-700 text-lg">
-            Reach out to us for partnership opportunities, inquiries, or to learn more about how ACCR is helping shape a sustainable future for Sierra Leone.
+            Reach out to us for inquiries, or to learn more about how ACCR is helping shape a sustainable future for Sierra Leone.
           </p>
 
           <div className="space-y-4 text-gray-600 ">
@@ -38,10 +38,11 @@ const ContactUs = () => {
               <MapPinIcon className="w-6 h-6 text-green-600" />
               12 Lumley Road, Freetown, Sierra Leone
             </p>
+            */}
             <p className="flex items-center gap-3">
               <PhoneIcon className="w-6 h-6 text-green-600" />
-              +232 79 000 000
-            </p> */}
+                +232 80 266 382
+            </p>
             <p className="flex items-center gap-3">
               <EnvelopeIcon className="w-6 h-6 text-green-600" />
               theaccr.sl@gmail.com

@@ -36,7 +36,7 @@ const scrollToHomeInfo = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 1 }}
         >
-          Association of Carbon Conservation and Reforestation (ACCR)
+          Association of Carbon Conservation and Reforestation
         </motion.h1>
 
         <motion.p
@@ -45,7 +45,8 @@ const scrollToHomeInfo = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 1 }}
         >
-          Sierra Leone’s leading voice for private sector carbon developers restoring ecosystems, creating jobs, and driving climate action through nature-based solutions.
+          Sierra Leone’s leading voice for private sector carbon developers restoring ecosystems,
+          creating jobs, and driving climate action.
         </motion.p>
 
         <motion.button
