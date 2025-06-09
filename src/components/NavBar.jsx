@@ -24,7 +24,7 @@ function NavBar() {
   return (
     <nav className="bg-green-100 text-green-900 fixed w-full z-20 top-0 shadow-lg" aria-label="Main navigation">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-[5rem] py-2 ">
           <div className="flex items-center">
             <button
               onClick={() => scrollToSection('home')}
@@ -32,7 +32,7 @@ function NavBar() {
               aria-label="Go to home"
             >
               <img
-                className="h-12 w-auto mr-2 transform hover:scale-110 transition duration-300"
+                className="h-[4rem] w-auto mr-2 transform hover:scale-110 transition duration-300"
                 src={logo}
                 alt="ACCR Logo"
               />
