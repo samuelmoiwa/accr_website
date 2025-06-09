@@ -6,13 +6,12 @@ import _4 from '../images/carosel/4.jpg'
 import _5 from '../images/carosel/5.png'
 import _6 from '../images/carosel/6.png'
 import _7 from '../images/carosel/7.png'
-import _8 from '../images/carosel/8.jpg'
 import _9 from '../images/carosel/9.jpg'
 import _10 from '../images/carosel/10.jpg'
 import _11 from '../images/carosel/11.jpg'
 
 const CallToAction = () => {
-  const images = [_1, _2, _3, _4, _5, _6, _7, _8, _9, _10, _11];
+  const images = [_1, _2, _3, _4, _5, _6, _7, _9, _10, _11];
 
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -36,7 +35,7 @@ const CallToAction = () => {
 
       {/* Popup modal */}
       {selectedImage && (
-        <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50" onClick={() => setSelectedImage(null)}>
+        <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50" onClick={() => setSelectedImage(null)}>
           <img
             src={selectedImage}
             alt="Full View"
