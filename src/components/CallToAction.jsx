@@ -27,7 +27,7 @@ const CallToAction = () => {
               key={index}
               src={img}
               alt={`Carousel ${index + 1}`}
-              className="w-64 h-40 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
+              className="w-[19rem] h-[14rem] object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
               onClick={() => setSelectedImage(img)}
             />
           ))}
