@@ -56,8 +56,6 @@ const scrollToHomeInfo = () => {
         >
           Learn More <ArrowDown className="w-5 h-5 animate-bounce" />
         </motion.button>
-
-
       </motion.div>
     </section>
   );
