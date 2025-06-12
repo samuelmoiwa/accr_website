@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import carbonImg from '../images/1.jpeg';
 import creditsImg from '../images/2.jpeg';
 import stoveImg from '../images/3.jpeg';
-import forestImg from '../images/4.jpeg';
-import cutTree from '../images/5.jpeg'
+import forestImg from '../images/carosel/2.jpeg';
+import cutTree from '../images/carosel/11.jpg'
 import reduction from '../images/6.jpeg'
 
 
