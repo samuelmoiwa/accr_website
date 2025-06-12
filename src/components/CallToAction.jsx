@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import _1 from '../images/carosel/1.jpg'
 import _2 from '../images/carosel/2.jpeg'
-import _3 from '../images/carosel/3.jpeg'
 import _4 from '../images/carosel/4.jpg'
 import _5 from '../images/carosel/5.png'
 import _6 from '../images/carosel/6.png'
@@ -11,7 +10,7 @@ import _10 from '../images/carosel/10.jpg'
 import _11 from '../images/carosel/11.jpg'
 
 const CallToAction = () => {
-  const images = [_1, _2, _3, _4, _5, _6, _7, _9, _10, _11];
+  const images = [_1, _2, _4, _9, _10, _11];
 
   const [selectedImage, setSelectedImage] = useState(null);
 
