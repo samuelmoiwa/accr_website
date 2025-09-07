@@ -56,10 +56,4 @@ const CallToAction = () => {
     </section>
   );
 };
-
-
-
-
-
-
 export default CallToAction;
